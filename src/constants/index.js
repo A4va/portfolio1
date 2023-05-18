@@ -143,7 +143,7 @@ import {
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
@@ -159,7 +159,7 @@ import {
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
   ];
   
@@ -183,7 +183,7 @@ import {
         },
       ],
       image: taif,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Front-End-Projectt",
     },
     {
       name: "TaskOver",
@@ -204,7 +204,7 @@ import {
         },
       ],
       image: taskover,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Full-stack-project-TaskOver",
     },
   ];
   
