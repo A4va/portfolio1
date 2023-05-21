@@ -5,10 +5,12 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 import emailjs from "@emailjs/browser";
-
+import { CV } from '../assets';
 
 const Contact = () => {
   const formRef = useRef();
+  const [isClicked, useIsClicked] = useState(false)
+
   const [form, setForm] = useState({
     name: '',
     email: '',
@@ -58,6 +60,9 @@ const Contact = () => {
       className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>
+        <button className='bg-tertiary w-full mt-4 py-3 px-8 outline-none text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-indigo-950 transition-colors'>
+                <a download="" href={CV} onClick={()=> useIsClicked(true)}>{isClicked? "Downloaded !": "Download CV"}</a>
+        </button>
 
         <form red={formRef} onSubmit={handleSubmit}
               className='mt-12 flex flex-col gap-8'
@@ -95,8 +100,7 @@ const Contact = () => {
 
           <button type="submit" className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl hover:bg-indigo-950 transition-colors'>
             {loading ? 'Sending...': 'Send'}
-          </button>
-          
+          </button>     
 
         </form>
         

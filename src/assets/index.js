@@ -1,3 +1,5 @@
+import CV from "./Abduallah_AL-Dawsari_Resume_30-03-2023.pdf";
+
 import backend from "./backend.png";
 import react from "./react.png";
 import front from "./front.png";
@@ -31,6 +33,8 @@ import taif from "./taif.png"
 import taskover from "./taskover.png"
 
 export {
+  CV,
+  
   backend,
   react,
   front,
