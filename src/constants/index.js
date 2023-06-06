@@ -3,6 +3,7 @@ import {
     backend,
     react,
     web,
+
     javascript,
     typescript,
     html,
@@ -16,8 +17,18 @@ import {
     prisma,
     python,
     chakraui,
+    cpp,
+    csharp,
+    express,
+    jwt,
+    mysql,
+    php,
+    vite,
+    zod,
+
     tuwaiq,
     sdaia,
+
     taif,
     taskover,
   } from "../assets";
@@ -66,6 +77,18 @@ import {
       icon: css,
     },
     {
+      name: "SASS",
+      icon: sass,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -74,41 +97,61 @@ import {
       icon: typescript,
     },
     {
+      name: "Vite",
+      icon: vite,
+    },
+    {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Chakra UI",
+      icon: chakraui,
     },
     {
       name: "Redux Toolkit",
       icon: redux,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "Express",
+      icon: express,
     },
     {
-      name: "sass",
-      icon: sass,
+      name: "JWT",
+      icon: jwt,
     },
     {
-      name: "prisma",
+      name: "Zod",
+      icon: zod,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "Prisma",
       icon: prisma,
     },
     {
-      name: "python",
+      name: "Python",
       icon: python,
     },
     {
-      name: "chakra ui",
-      icon: chakraui,
-    }
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "C#",
+      icon: csharp,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
   ];
   
   const experiences = [

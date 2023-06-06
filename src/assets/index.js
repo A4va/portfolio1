@@ -1,4 +1,4 @@
-import CV from "./Abduallah_AL-Dawsari_Resume_10-05-2023.pdf";
+import CV from "./Abduallah_AL-Dawsari_Resume_06-06-2023.pdf";
 
 import backend from "./backend.png";
 import react from "./react.png";
@@ -25,6 +25,14 @@ import sass from "./tech/sass.png"
 import chakraui from "./tech/chakraui.png";
 import prisma from "./tech/prisma.png";
 import python from "./tech/python.png";
+import cpp from "./tech/cpp.png";
+import csharp from "./tech/csharp.png";
+import express from "./tech/express.png";
+import jwt from "./tech/jwt.png";
+import mysql from "./tech/mysql.png";
+import php from "./tech/php.png";
+import vite from "./tech/vite.png";
+import zod from "./tech/zod.svg";
 
 import tuwaiq from "./company/tuwaiq.svg"
 import sdaia from "./company/sdaia.png"
@@ -60,6 +68,14 @@ export {
   sass,
   prisma,
   python,
+  cpp,
+  csharp,
+  express,
+  jwt,
+  mysql,
+  php,
+  vite,
+  zod,
 
   tuwaiq,
   sdaia,
