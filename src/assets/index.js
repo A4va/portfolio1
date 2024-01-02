@@ -1,4 +1,4 @@
-import CV from "./Abduallah_AL-Dawsari_Resume_06-06-2023.pdf";
+import CV from "./Abduallah-AL-Dawsari-Resume-2024-01-02.pdf";
 
 import backend from "./backend.png";
 import react from "./react.png";
@@ -34,11 +34,15 @@ import php from "./tech/php.png";
 import vite from "./tech/vite.png";
 import zod from "./tech/zod.svg";
 
+import yamm from "./company/yamm.svg"
 import tuwaiq from "./company/tuwaiq.svg"
 import sdaia from "./company/sdaia.png"
 
-import taif from "./taif.png"
-import taskover from "./taskover.png"
+import discord from "./discord.png"
+import kanban from "./kanban.png"
+
+// import taif from "./taif.png"
+// import taskover from "./taskover.png"
 
 export {
   CV,
@@ -77,9 +81,12 @@ export {
   vite,
   zod,
 
+  yamm,
   tuwaiq,
   sdaia,
   
-  taif,
-  taskover,
+  // taif,
+  // taskover,
+  discord,
+  kanban,
 };

@@ -26,11 +26,12 @@ import {
     vite,
     zod,
 
+    yamm,
     tuwaiq,
     sdaia,
 
-    taif,
-    taskover,
+    discord,
+    kanban,
   } from "../assets";
   
   export const navLinks = [
@@ -157,16 +158,12 @@ import {
   const experiences = [
     {
       title: "Bootcamp Swaher",
-      company_name: "Sdaia",
+      company_name: "SDAIA",
       icon: sdaia,
       iconBg: "#383E56",
       date: "2022",
       brief:"I gained knowledge of the fundamentals of CCTV systems, the operation of cameras, how switches connect them to the network, how to deal with the DNA center, and the advantages of firewalls. I also learned about recording and storage equipment, how data is kept, what a VMS is, and how I may benefit from big data and cloud storage technologies.",
-      // points: [
-      //   "li1",
-      //   "li2",
-      //   "li3",
-      // ],
+      points: [],
     },
     {
       title: "Full stack Developer",
@@ -175,7 +172,27 @@ import {
       iconBg: "#E6DEDD",
       date: "2023",
       brief:"Throughout the duration of the bootcamp, I acquired knowledge of Javascript, Typescript, and various tools, frameworks, libraries, and databases, thereby enabling me to excel as a full-stack developer. Additionally, I worked on numerous projects using these technologies, which was a significant stepping stone toward fulfilling the job market demands.",
-      // points: [],
+      points: [],
+    },
+    {
+      title: "Frontend Developer",
+      company_name: "YAMM",
+      icon: yamm,
+      iconBg: "#E6DEDD",
+      date: "2023",
+      brief:"",
+      points: [
+        "Highly skilled and proactive Front-End Developer with a strong track record at Yamm.",
+        "Expertise in technologies and frameworks like i18n, styled-components, and react-hook-form.",
+        "Actively contribute to the development of web applications, consistently delivering high-quality code.",
+        "Collaborate seamlessly with cross-functional teams to achieve project goals.",
+        "Currently engaged in an ongoing project to redesign Yamm's website using Next.js, Tailwind CSS, and React Query.",
+        "Focus on enhancing performance and improving the user experience.",
+        "Proficient in task management using Jira, ensuring organized and efficient workflows.",
+        "Maintain effective communication through Slack, fostering seamless collaboration.",
+        "Committed to delivering exceptional code quality and continuously expanding technical skills.",
+        "Driven to innovate and contribute to the growth of web development."
+      ],
     },
   ];
   
@@ -208,9 +225,30 @@ import {
   
   const projects = [
     {
-      name: "Taif",
+      name: "Full-stack Discord Clone",
       description:
-        "Taif website is dedicated to serving individuals with autism and their families by offering valuable resources and support. Our ultimate objective is to become the leading resource for those seeking guidance and assistance in their journey of caring for individuals with autism. We strive to help individuals and families identify the most effective methods for addressing the challenges associated with autism. Our mission is to empower individuals with autism and their families by providing them with the necessary knowledge and tools to improve their quality of life.",
+      "I developed an end-to-end full-stack and real-time Discord clone project. The project includes features such as servers, channels, video calls, audio calls, message editing and deletion, as well as member roles. Key features of the project include real-time messaging using Socket.io, the ability to send attachments as messages, and real-time deletion and editing of messages for all users. I also implemented text, audio, and video call channels, as well as 1:1 conversations and video calls between members. The project includes member management functionalities like kicking and role changes, along with a unique invite link generation system. Additional features include infinite loading for messages, server creation and customization, a beautiful UI with responsive design and light/dark mode options, WebSocket fallback with polling and alerts, ORM using Prisma for database operations, MySQL database hosted on Planetscale, and authentication with Clerk for secure access. This project showcases my skills in full-stack development, real-time communication, UI/UX design, and database management.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "next js",
+          color: "gray-text-gradient",
+        },
+        {
+          name: "prisma",
+          color: "gray-text-gradient",
+        },
+      ],
+      image: discord,
+      source_code_link: "https://github.com/A4va/discord-clone",
+    },
+    {
+      name: "Kanban Board",
+      description:
+      "I developed a simple Kanban project using TypeScript, React, Chakra UI, and the React-beautiful-dnd  library. The project aims to provide a user-friendly and intuitive interface for managing tasks using the Kanban methodology. By leveraging TypeScript, I ensured type safety and improved code maintainability. React served as the foundation for building a responsive and dynamic user interface, while Chakra UI provided a set of customizable and accessible UI components. The React-beautiful-dnd library facilitated easy drag-and-drop functionality, allowing users to move tasks between different columns on the Kanban board. Additionally, I utilized local storage to persist the Kanban board state, ensuring that user's task progress is saved even after refreshing the page.",
       tags: [
         {
           name: "react",
@@ -221,33 +259,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "redux",
-          color: "purple-text-gradient",
-        },
-      ],
-      image: taif,
-      source_code_link: "https://github.com/Front-End-Projectt",
-    },
-    {
-      name: "TaskOver",
-      description:
-        "TaskOver is driven by our passion for integrating gamification into task completion, which we believe can make the process more enjoyable and engaging for everyone involved. Our primary objective is to create a user-friendly platform that enables users to earn rewards for successfully completing tasks, and to foster healthy competition among them through a dynamic leaderboard system. We are committed to harnessing the power of gamification to inspire and motivate individuals to achieve their goals. By making task completion a fun and rewarding experience, we aim to empower users to take control of their lives and accomplish more than they ever thought possible.",
-      tags: [
-        {
-          name: "react",
+          name: "typescript",
           color: "blue-text-gradient",
         },
-        {
-          name: "node js",
-          color: "green-text-gradient",
-        },
-        {
-          name: "prisma",
-          color: "gray-text-gradient",
-        },
       ],
-      image: taskover,
-      source_code_link: "https://github.com/Full-stack-project-TaskOver",
+      image: kanban,
+      source_code_link: "https://github.com/A4va/Kanban-Board",
     },
   ];
   
